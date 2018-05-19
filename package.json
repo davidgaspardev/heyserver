@@ -1,0 +1,21 @@
+{
+  "name": "heyserver",
+  "version": "1.0.0",
+  "description": "Server to the android app HeyCeitas.",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "HTTP",
+    "HTTPS",
+    "IPv4",
+    "TCP/IP",
+    "url",
+    "connection",
+    "service"
+  ],
+  "author": "David Gaspar",
+  "license": "ISC"
+}
