@@ -1,9 +1,8 @@
-var http = require('http');
+const express = require('express');
+const app     = express();
 
-http.createServer((request, response) => {
+app.get('/', (rrequest, response) => {
+  response.send('Hello World!')
+})
 
-  response.writeHead(200, {"Content-Type": "text/html"});
-  response.write('Hello World!');
-  response.end();
-
-}).listen(80, '0.0.0.0');//IPv4
+app.listen(80, () => console.log('Listing port 80 (HTTP)'))
