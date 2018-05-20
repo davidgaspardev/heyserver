@@ -2,7 +2,7 @@
   "name": "heyserver",
   "version": "1.0.0",
   "description": "Server to the android app HeyCeitas.",
-  "main": "Server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
